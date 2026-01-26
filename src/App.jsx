@@ -3,6 +3,7 @@ import './App.css'
 import UncontrolledField from './UncontrolledField/UncontrolledField';
 import HookForm from './components/HookForm/HookForm';
 import ProductManagement from './components/ProuductManagement/ProductManagement';
+import FamilyTree from './components/FamilyTree/FamilyTree';
 
 function App() {
   // const [password, setPassword] = useState('secret');
@@ -37,7 +38,8 @@ function App() {
       <h1>Controlled Component</h1>
       {/* <UncontrolledField></UncontrolledField> */}
       {/* <HookForm></HookForm> */}
-      <ProductManagement></ProductManagement>
+      <FamilyTree></FamilyTree>
+      {/* <ProductManagement></ProductManagement> */}
     </>
   )
 }
